@@ -1,0 +1,1014 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Navigation Styles */
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #fff;
+    padding: 15px 20px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    position: fixed;
+    width: 100%;
+    z-index: 1000;
+}
+
+nav .logo a {
+    text-decoration: none;
+    color: green;
+}
+
+nav .logo1 {
+    font-size: 26px;
+    font-weight: bold;
+}
+
+nav .menu-list {
+    list-style: none;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    margin-top: -20px;
+    padding: 0;
+}
+
+nav .menu-list li {
+    margin: 0 15px;
+}
+
+nav .menu-list li a {
+    text-decoration: none;
+    color: green;
+    font-size: 20px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    margin-top: -20px;
+}
+
+nav .menu-btn {
+    display: none;
+    font-size: 24px;
+    cursor: pointer;
+}
+.head2{
+    font-size: 35px;
+    color: green;
+    text-align: center;
+}
+.img1{
+    width: 300px;
+    height: 300px;
+    border-radius: 20px;
+    transition: all 0.8s linear;
+}
+.img1:hover{
+    transform: scale(1.1);
+}
+.img2{
+    width: 300px;
+    height: 300px;
+    border-radius: 20px;
+    transition: all 0.8s linear;
+}
+.img2:hover{
+    transform: scale(1.1);
+}
+.img3{
+    width: 300px;
+    height: 300px;
+    border-radius: 20px;
+    transition: all 0.8s linear;
+}
+.img3:hover{
+
+    transform: scale(1.1);
+}
+.shopby{
+    display: flex;
+    justify-content: space-evenly;
+}
+.head3{
+    font-size: 35px;
+    color: green;
+    text-align: center;
+}
+.img4{
+   position: absolute;
+   left: 0;
+   top: 5;
+   opacity: 0;
+}
+.img4:hover{
+    opacity: 1;
+}
+.img5{
+   position: absolute;
+   left: 0;
+   top: 5;
+   opacity: 0;
+}
+.img5:hover{
+    opacity: 1;
+}
+.img6{
+    position: absolute;
+    left: 0;
+    top: 5;
+    opacity: 0;
+}
+.img6:hover{
+    opacity: 1;
+}
+.img7{
+    position: absolute;
+    left: 0;
+    top: 5;
+    opacity: 0;
+}
+.img7:hover{
+    opacity: 1;
+}
+.products1{
+    display: flex;
+    justify-content: space-evenly;
+}
+.product1{
+    width: 320px;
+    position: relative;
+    border: 2px solid #ccc;
+    border-radius: 15px;
+}
+.product1 img{
+    width: 300px;
+    height: 300px;
+    transition: all 0.8s linear;
+}
+.product2{
+    width: 320px;
+    position: relative;
+    border: 2px solid #ccc;
+}
+.product2 img{
+    width: 300px;
+    height: 300px;
+    transition: all 0.8s linear;
+}
+.product3{
+    width: 320px;
+    position: relative;
+    border: 2px solid #ccc;
+}
+.product3 img{
+    width: 300px;
+    height: 300px;
+    transition: all 0.8s linear;
+}
+.product4{
+    width: 320px;
+    position: relative;
+    border: 2px solid #ccc;
+}
+.product4 img{
+    width: 300px;
+    height: 300px;
+    transition: all 0.8s linear;
+}
+.productname{
+    font-size: 20px;
+}
+.productdesc{
+    font-size: 18px;
+}
+.know{
+    background-color: green;
+    color: white;
+    border: none;
+    padding-left: 25px;
+    padding-right: 25px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+}
+.fa-angle-right{
+    font-size: 14px;
+    opacity: 0;
+}
+.know:hover .fa-angle-right{
+   opacity: 1;
+}
+.addcart{
+    background-color: green;
+    color: white;
+    border: none;
+    padding-left: 25px;
+    padding-right: 25px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+}
+.oilproduct{
+    display: flex;
+    justify-content: space-evenly;
+}
+.product5{
+    width: 320px;
+    border: 2px solid #ccc;
+    border-radius: 15px;
+}
+.product6{
+    width: 320px;
+    border: 2px solid #ccc;
+    border-radius: 15px;
+}
+.product7{
+    width: 320px;
+    border: 2px solid #ccc;
+    border-radius: 15px;
+}
+.product8{
+    width: 320px;
+    border: 2px solid #ccc;
+    border-radius: 15px;
+}
+.img8{
+    width: 300px;
+    height: 320px;
+}
+.img9{
+    width: 300px;
+    height: 320px;
+}
+.img10{
+    width: 300px;
+    height: 320px;
+}
+.img11{
+    width: 300px;
+    height: 320px;
+}
+.sweetproduct{
+    display: flex;
+    justify-content: space-evenly;
+}
+.img12{
+    width: 300px;
+    height: 300px;
+}
+.img13{
+    width: 300px;
+    height: 300px;
+}
+.img14{
+    width: 300px;
+    height: 300px;
+}
+.img15{
+    width: 300px;
+    height: 300px;
+}
+.product9{
+    width: 320px;
+    border: 2px solid #ccc;
+    border-radius: 15px;
+}
+.product10{
+    width: 320px;
+    border: 2px solid #ccc;
+    border-radius: 15px;
+}
+.product11{
+    width: 320px;
+    border: 2px solid #ccc;
+    border-radius: 15px;
+}
+.product12{
+    width: 320px;
+    border: 2px solid #ccc;
+    border-radius: 15px;
+}
+footer {
+    background-color: #000;
+    color: #fff;
+    padding: 20px 0;
+}
+
+.footer-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.footer-logo a {
+    max-width: 150px;
+    color: green;
+}
+
+.footer-links {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.footer-column {
+    flex: 1;
+    min-width: 200px;
+    margin: 20px 0;
+}
+
+.footer-column h3 {
+    margin-bottom: 10px;
+    font-size: 18px;
+}
+
+.footer-column ul {
+    list-style: none;
+    padding: 0;
+}
+
+.footer-column ul li {
+    margin-bottom: 10px;
+}
+
+.footer-column ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 14px;
+}
+
+.footer-column ul li a:hover {
+    text-decoration: underline;
+}
+
+.social-media {
+    display: flex;
+    justify-content: flex-start;
+}
+
+.social-media li {
+    margin-right: 10px;
+}
+
+.social-media li a {
+    color: #fff;
+    font-size: 20px;
+}
+
+.footer-bottom {
+    text-align: center;
+    padding: 10px;
+    background-color: #111;
+    margin-top: 20px;
+}
+
+.footer-bottom p {
+    margin: 0;
+    font-size: 14px;
+}
+
+@media (max-width: 400px) {
+    nav .logo a {
+        text-decoration: none;
+        color: green;
+    }
+    
+    nav .logo1 {
+        font-size: 16px;
+        font-weight: bold;
+        text-align: center;
+        margin-top: -5px;
+    }
+    nav .menu-list {
+        list-style: none;
+        display: flex;
+        justify-content: flex-end;
+        align-items: center;
+        margin-top: 30px;
+        padding: 0;
+    }
+    
+    nav .menu-list li {
+        margin: 0 22px;
+    }
+    
+    nav .menu-list li a {
+        text-decoration: none;
+        color: green;
+        font-size: 14px;
+    }
+    .products1{
+        display: flex;
+        flex-direction: column;
+        margin-left: -10px !important;
+        justify-content: space-evenly;
+    }
+    .oilproduct{
+        display: flex;
+        flex-direction: column;
+        margin-left: -10px !important;
+        justify-content: space-evenly;
+    }
+    .sweetproduct{
+        display: flex;
+        flex-direction: column;
+       margin-left: -10px !important;
+        justify-content: space-evenly;
+    }
+    .img1{
+        width: 150px;
+        height: 150px;
+        transition: all 0.8s linear;
+    }
+    .img1:hover{
+        transform: scale(1.1);
+    }
+    .img2{
+        width: 150px;
+        height: 150px;
+        transition: all 0.8s linear;
+    }
+    .img2:hover{
+        transform: scale(1.1);
+    }
+    .img3{
+        width: 150px;
+        height: 150px;
+        transition: all 0.8s linear;
+    }
+    .img3:hover{
+    
+        transform: scale(1.1);
+    }
+    .shopby{
+        padding: 10px;
+    }
+    .img4{
+        width: 250px;
+        height: 250px;
+        border-radius: 15px;
+    }
+    .img5{
+        width: 250px;
+        height: 250px;
+        border-radius: 15px;
+    }
+    .img6{
+        width: 250px;
+        height: 250px;
+        border-radius: 15px;
+    }
+    .img7{
+        width: 250px;
+        height: 250px;
+        border-radius: 15px;
+    }
+    .img8{
+        width: 250px;
+        height: 250px;
+        border-radius: 15px;
+    }
+    .img9{
+        width: 250px;
+        height: 250px;
+        border-radius: 15px;
+    }
+    .img10{
+        width: 250px;
+        height: 250px;
+        border-radius: 15px;
+    }
+    .img11{
+        width: 250px;
+        height: 250px;
+        border-radius: 15px;
+    }
+    .img12{
+        width: 250px;
+        height: 250px;
+        border-radius: 15px;
+    }
+    .img13{
+        width: 250px;
+        height: 250px;
+        border-radius: 15px;
+    }
+    .img14{
+        width: 250px;
+        height: 250px;
+        border-radius: 15px;
+    }
+    .img15{
+        width: 250px;
+        height: 250px;
+        border-radius: 15px;
+    }
+    .product1{
+        width: 270px;
+        border: 2px solid #ccc;
+        border-radius: 15px;
+    }
+    .product2{
+        width: 270px;
+        border: 2px solid #ccc;
+        border-radius: 15px;
+        margin-top: 10px;
+    }
+    .product3{
+        width: 270px;
+        border: 2px solid #ccc;
+        border-radius: 15px;
+        margin-top: 10px;
+    }
+    .product4{
+        width: 270px;
+        border: 2px solid #ccc;
+        border-radius: 15px;
+        margin-top: 10px;
+    }
+    .product5{
+        width: 270px;
+        border: 2px solid #ccc;
+        border-radius: 15px;
+    }
+    .product6{
+        width: 270px;
+        border: 2px solid #ccc;
+        border-radius: 15px;
+        margin-top: 10px;
+    }
+    .product7{
+        width: 270px;
+        border: 2px solid #ccc;
+        border-radius: 15px;
+        margin-top: 10px;
+    }
+    .product8{
+        width: 270px;
+        border: 2px solid #ccc;
+        border-radius: 15px;
+        margin-top: 10px;
+    }
+    .product9{
+        width: 270px;
+        border:  2px solid #ccc;
+        border-radius: 15px;
+    }
+    .product10{
+        width: 270px;
+        border: 2px solid #ccc;
+        border-radius: 15px;
+        margin-top: 10px;
+    }
+    .product11{
+        width: 270px;
+        border: 2px solid #ccc;
+        border-radius: 15px;
+        margin-top: 10px;
+    }
+    .product12{
+        width: 270px;
+        border: 2px solid #ccc;
+        border-radius: 15px;
+        margin-top: 10px;
+    }
+    .productdesc{
+        font-size: 18px;
+    }
+}
+@media (max-width: 768px) {
+    .footer-container {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .footer-logo {
+        margin-bottom: 20px;
+    }
+
+    .footer-links {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .footer-column {
+        text-align: center;
+        min-width: unset;
+    }
+
+    .footer-column h3, .footer-column ul li a {
+        font-size: 16px;
+    }
+
+    .footer-column ul li {
+        margin-bottom: 5px;
+    }
+
+    .social-media {
+        justify-content: center;
+    }    
+    .products1{
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: space-evenly;
+    }
+    .oilproduct{
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: space-evenly;
+    }
+    .sweetproduct{
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: space-evenly;
+    }
+    .img1{
+        width: 150px;
+        height: 150px;
+        transition: all 0.8s linear;
+    }
+    .img1:hover{
+        transform: scale(1.1);
+    }
+    .img2{
+        width: 150px;
+        height: 150px;
+        transition: all 0.8s linear;
+    }
+    .img2:hover{
+        transform: scale(1.1);
+    }
+    .img3{
+        width: 150px;
+        height: 150px;
+        transition: all 0.8s linear;
+    }
+    .img3:hover{
+    
+        transform: scale(1.1);
+    }
+    .shopby{
+        padding: 10px;
+    }
+    .img4{
+        width: 300px;
+        height: 300px;
+        border-radius: 15px;
+    }
+    .img5{
+        width: 300px;
+        height: 300px;
+        border-radius: 15px;
+    }
+    .img6{
+        width: 300px;
+        height: 300px;
+        border-radius: 15px;
+    }
+    .img7{
+        width: 300px;
+        height: 300px;
+        border-radius: 15px;
+    }
+    .img8{
+        width: 300px;
+        height: 300px;
+        border-radius: 15px;
+    }
+    .img9{
+        width: 300px;
+        height: 300px;
+        border-radius: 15px;
+    }
+    .img10{
+        width: 300px;
+        height: 300px;
+        border-radius: 15px;
+    }
+    .img11{
+        width: 300px;
+        height: 300px;
+        border-radius: 15px;
+    }
+    .img12{
+        width: 300px;
+        height: 300px;
+        border-radius: 15px;
+    }
+    .img13{
+        width: 300px;
+        height: 300px;
+        border-radius: 15px;
+    }
+    .img14{
+        width: 300px;
+        height: 300px;
+        border-radius: 15px;
+    }
+    .img15{
+        width: 300px;
+        height: 300px;
+        border-radius: 15px;
+    }
+    .product1{
+        width: 320px;
+        border: 2px solid #ccc;
+        border-radius: 15px;
+    }
+    .product2{
+        width: 320px;
+        border: 2px solid #ccc;
+        border-radius: 15px;
+        margin-top: 10px;
+    }
+    .product3{
+        width: 320px;
+        border: 2px solid #ccc;
+        border-radius: 15px;
+        margin-top: 10px;
+    }
+    .product4{
+        width: 320px;
+        border: 2px solid #ccc;
+        border-radius: 15px;
+        margin-top: 10px;
+    }
+    .product5{
+        width: 320px;
+        border: 2px solid #ccc;
+        border-radius: 15px;
+    }
+    .product6{
+        width: 320px;
+        border: 2px solid #ccc;
+        border-radius: 15px;
+        margin-top: 10px;
+    }
+    .product7{
+        width: 320px;
+        border: 2px solid #ccc;
+        border-radius: 15px;
+        margin-top: 10px;
+    }
+    .product8{
+        width: 320px;
+        border: 2px solid #ccc;
+        border-radius: 15px;
+        margin-top: 10px;
+    }
+    .product9{
+        width: 320px;
+        border:  2px solid #ccc;
+        border-radius: 15px;
+    }
+    .product10{
+        width: 320px;
+        border: 2px solid #ccc;
+        border-radius: 15px;
+        margin-top: 10px;
+    }
+    .product11{
+        width: 320px;
+        border: 2px solid #ccc;
+        border-radius: 15px;
+        margin-top: 10px;
+    }
+    .product12{
+        width: 320px;
+        border: 2px solid #ccc;
+        border-radius: 15px;
+        margin-top: 10px;
+    }
+    .productdesc{
+        font-size: 18px;
+    }
+}
+@media screen and (max-width: 1000px) {
+    .footer-container {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .footer-logo {
+        margin-bottom: 20px;
+    }
+
+    .footer-links {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .footer-column {
+        text-align: center;
+        min-width: unset;
+    }
+
+    .footer-column h3, .footer-column ul li a {
+        font-size: 16px;
+    }
+
+    .footer-column ul li {
+        margin-bottom: 5px;
+    }
+
+    .social-media {
+        justify-content: center;
+    }    
+    .products1{
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: space-evenly;
+        margin-left: 50px;
+    }
+    .oilproduct{
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: space-evenly;
+        margin-left: 50px;
+    }
+    .sweetproduct{
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: space-evenly;
+        margin-left: 50px;
+    }
+    .img1{
+        width: 150px;
+        height: 150px;
+        transition: all 0.8s linear;
+    }
+    .img1:hover{
+        transform: scale(1.1);
+    }
+    .img2{
+        width: 150px;
+        height: 150px;
+        transition: all 0.8s linear;
+    }
+    .img2:hover{
+        transform: scale(1.1);
+    }
+    .img3{
+        width: 150px;
+        height: 150px;
+        transition: all 0.8s linear;
+    }
+    .img3:hover{
+    
+        transform: scale(1.1);
+    }
+    .shopby{
+        padding: 10px;
+    }
+    .img4{
+        width: 300px;
+        height: 300px;
+        border-radius: 15px;
+    }
+    .img5{
+        width: 300px;
+        height: 300px;
+        border-radius: 15px;
+    }
+    .img6{
+        width: 300px;
+        height: 300px;
+        border-radius: 15px;
+    }
+    .img7{
+        width: 300px;
+        height: 300px;
+        border-radius: 15px;
+    }
+    .img8{
+        width: 300px;
+        height: 300px;
+        border-radius: 15px;
+    }
+    .img9{
+        width: 300px;
+        height: 300px;
+        border-radius: 15px;
+    }
+    .img10{
+        width: 300px;
+        height: 300px;
+        border-radius: 15px;
+    }
+    .img11{
+        width: 300px;
+        height: 300px;
+        border-radius: 15px;
+    }
+    .img12{
+        width: 300px;
+        height: 300px;
+        border-radius: 15px;
+    }
+    .img13{
+        width: 300px;
+        height: 300px;
+        border-radius: 15px;
+    }
+    .img14{
+        width: 300px;
+        height: 300px;
+        border-radius: 15px;
+    }
+    .img15{
+        width: 300px;
+        height: 300px;
+        border-radius: 15px;
+    }
+    .product1{
+        width: 320px;
+        border: 2px solid #ccc;
+        border-radius: 15px;
+    }
+    .product2{
+        width: 320px;
+        border: 2px solid #ccc;
+        border-radius: 15px;
+        margin-top: 10px;
+    }
+    .product3{
+        width: 320px;
+        border: 2px solid #ccc;
+        border-radius: 15px;
+        margin-top: 10px;
+    }
+    .product4{
+        width: 320px;
+        border: 2px solid #ccc;
+        border-radius: 15px;
+        margin-top: 10px;
+    }
+    .product5{
+        width: 320px;
+        border: 2px solid #ccc;
+        border-radius: 15px;
+    }
+    .product6{
+        width: 320px;
+        border: 2px solid #ccc;
+        border-radius: 15px;
+        margin-top: 10px;
+    }
+    .product7{
+        width: 320px;
+        border: 2px solid #ccc;
+        border-radius: 15px;
+        margin-top: 10px;
+    }
+    .product8{
+        width: 320px;
+        border: 2px solid #ccc;
+        border-radius: 15px;
+        margin-top: 10px;
+    }
+    .product9{
+        width: 320px;
+        border:  2px solid #ccc;
+        border-radius: 15px;
+    }
+    .product10{
+        width: 320px;
+        border: 2px solid #ccc;
+        border-radius: 15px;
+        margin-top: 10px;
+    }
+    .product11{
+        width: 320px;
+        border: 2px solid #ccc;
+        border-radius: 15px;
+        margin-top: 10px;
+    }
+    .product12{
+        width: 320px;
+        border: 2px solid #ccc;
+        border-radius: 15px;
+        margin-top: 10px;
+    }
+    .productdesc{
+        font-size: 18px;
+    }
+}
